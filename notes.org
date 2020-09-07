@@ -21,12 +21,12 @@ Q: What about combining main page and about page
 *** TODO 2018
 
 *** TODO 2019
-
+    
 *** TODO 2020
 
-*** TODO Inclusivity
-   Edit
-   Question to guide the edit: What is the purpose of this statement?
+** TODO Inclusivity
+  Edit
+  Question to guide the edit: What is the purpose of this statement?
 
-*** Open Questions
-  What about a page for mentors? 
+* Open Questions
+What about a page for mentors? 
