@@ -1,8 +1,20 @@
 * Actions Items:
 
 ** TODO Main Page
+- Mission statement for ACT school
+- Important dates? Timeline?
+
 
 ** TODO About Page
+- Structure of ACT school
+    - online portion + purpose
+    - research week + purpose
+- A successful ACT school participant will...
+- A successful mentor will... (?)
+- Who is it for?
+- meta goals vs. math goals?
+
+Q: What about combining main page and about page
 
 ** TODO Previous Years
 
@@ -12,5 +24,9 @@
 
 *** TODO 2020
 
-** TODO Inclusivity
+*** TODO Inclusivity
    Edit
+   Question to guide the edit: What is the purpose of this statement?
+
+*** Open Questions
+  What about a page for mentors? 
