@@ -1,0 +1,35 @@
+* Actions Items:
+
+** DONE Main Page
+   CLOSED: [2020-09-08 ter 00:33]
+- Mission statement for ACT school
+- Important dates? Timeline?
+
+
+** DONE About Page
+   CLOSED: [2020-09-08 ter 00:33]
+- Structure of ACT school
+    - online portion + purpose
+    - research week + purpose
+- A successful ACT school participant will...
+- A successful mentor will... (?)
+- Who is it for?
+- meta goals vs. math goals?
+
+Q: What about combining main page and about page
+
+** TODO Previous Years
+
+*** TODO 2018
+
+*** TODO 2019
+    
+*** TODO 2020
+
+** DONE Inclusivity
+   CLOSED: [2020-09-08 ter 00:33]
+  Edit
+  Question to guide the edit: What is the purpose of this statement?
+
+* Open Questions
+What about a page for mentors? 
