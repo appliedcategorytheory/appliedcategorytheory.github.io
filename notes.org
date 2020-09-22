@@ -1,11 +1,13 @@
 * Actions Items:
 
-** TODO Main Page
+** DONE Main Page
+   CLOSED: [2020-09-08 ter 00:33]
 - Mission statement for ACT school
 - Important dates? Timeline?
 
 
-** TODO About Page
+** DONE About Page
+   CLOSED: [2020-09-08 ter 00:33]
 - Structure of ACT school
     - online portion + purpose
     - research week + purpose
@@ -24,7 +26,8 @@ Q: What about combining main page and about page
     
 *** TODO 2020
 
-** TODO Inclusivity
+** DONE Inclusivity
+   CLOSED: [2020-09-08 ter 00:33]
   Edit
   Question to guide the edit: What is the purpose of this statement?
 
