@@ -73,3 +73,7 @@ td {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255,.85);
 }
+
+img{
+    margin: 5px;
+}
