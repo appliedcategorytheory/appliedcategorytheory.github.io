@@ -56,8 +56,8 @@ td {
     background-color: rgba(206, 178, 237, 0.25);
     padding: 10px;
     border-radius: 10px;
-    height: 95%;
-    margin-top: 10px;
+    margin: 5px;
+    height: 98%;
 }
 
 .dropdown-item{
