@@ -23,7 +23,7 @@ function displayHTMLlist(results){
     var students = data[i][2];
     var title = data[i][3];
     var url = data[i][4];
-    var entry = `<li>(${date}) ${students}. <a href="${url}">${title}</a>. Mentored by <i>${mentor}</i>.</li>`;
+    var entry = `<li>[${date}] ${students}. <a href="${url}">${title}</a>. Mentored by <i>${mentor}</i>.</li>`;
     list += entry
   }
   list += "</ul>";
