@@ -71,85 +71,59 @@
     <hr></hr>
 
     <h2> Research Projects </h2>
+   
+
     <div class = "row">
         <div class= "col-xl-6 ">
             <div class = "past-proj">
                 <center>
-                    <h5> Categories of Maintainable Relations</h5>
-                    <p> Mentor: <i> Michael Johnson </i></p>
-                </center>
-                <p>
-                    <p>
-                        Relations have many important applications, and correspondingly the category theoretic study of relations is well-developed. Typically, relations from X to Y are defined as subobjects of the product of X and Y, and if X and Y are objects in a regular category C then we can construct a bicategory rel(C) whose morphisms are relations in C.  Conversely bicategories that arise as such a rel(C) were studied in a recent ACT School which examined the seminal paper “Cartesian Bicategories I” by Carboni and Walters.
-                    </p>
-
-                    <p>
-                        In this project we study (bi)categories of maintainable relations between categories.  In this situation, the X and Y of the last paragraph, will be categories, and C will be Cat, the category of (small) categories. Cat is not a regular category, so we need to take an alternative approach to relations that uses equivalence classes of spans in C.  Maintainable relations, which are instances of bidirectional transformations (cf lenses), are relations R between categories X and Y with extra structure so that if objects x of X and y of Y are R-related by a specific witness r, and if f: x –> x’ is an arrow of X, then the extra structure gives (functorially) an arrow g: y –> y’ such that x’ and y’ are again R-related, and by a specific witness r’ (cf symmetric delta lenses).  Commonly in applications the relation R is called a “consistency relation” and the extra structure is called “consistency restoration” (or in lens terms, change propagation).
-                    </p>
-
-                    <p>
-                        This is a rich area with many interesting interactions involving bicategories of spans, lenses (both symmetric and asymmetric), fibrations and generalisations of fibred category theory, as well as direct (and motivating) applications in database design and system interoperation and even machine learning.  It is a mix of interesting theoretical questions and concrete applications.  We will attack open questions involving exactness properties of categories of maintainable relations, we will seek to understand the interactions with classical work such as that of Carboni and Walters, and we will develop concrete examples of system interactions that are modelled by maintainable relations.
-                    </p>
+                    <h5> Dialectica categories of Petri nets</h5>
+                    <p><i>Mentor:</i> Valeria de Paiva
+                    <br> <i>TA: </i> Jade Master
+                    <br> <i>Students: </i>Elena Di Lavore, Wilmer Leal, Xiaoyan Li, Eigil Rischel
                 </p>
-
-                <hr> </hr>
-                <center> <p> Participants and Blog Posts </p> </center>
-
-                <i> Maurine Songa and Emma Chollet </i>
+                </center>
+                <hr></hr>
+                <p>
+                    Dialectica categories (also called dialectica spaces) were introduced in the doctoral work of de Paiva​, where they were used to model Gödel’s dialectica interpretation, as well as to provide categorical models of Girard’s linear logic. Since then several applications of dialectica categories, have been described. We want to have some more of them.
+                    
+                    This project is about categories of Petri nets. Petri nets are an extremely popular model of concurrency, both in theory and in practice. They have several descriptions and variations in the literature. One of the interesting problems with Petri nets was to give a compositional theory of them. Brown and Gurr used dialectica categories to model a restricted class of Petri nets. They were joined by de Paiva in a subsequent paper​, which generalized the previous work to nets of multiplicity greater than one. Their nets have morphisms corresponding to simulations, which we believe are more flexible than the ones usually considered.
+                </p>
+                <p> Readings</p>
                 <ul>
-                    <li>
-                        Associated reading: <a href="https://www.mta.ca/~rrosebru/articles/BX16Proc.pdf">Unifying Set-Based, Delta-Based and Edit-Based Lenses </a>, <i> Michael Johnson and Robert Rosebrugh </i>
+                    <li> 
+                        <a href="https://ieeexplore.ieee.org/abstract/document/113747"> A categorical linear framework for Petri nets</a>, <i>  C. Brown and  D. Gurr  </i> </li>
+                    </li>
+                    <li> 
+                        <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-225.pdf"> Categorical multirelations,linear logic and petri nets</a>, <i>Valeria de Paiva </i>
                     </li>
                 </ul>
-                <i>Vincent Wang and Gioele Zardini </i>
-                <ul>
-                    <li>
-                        Associated reading: <a href="https://arxiv.org/abs/2009.06835"> Internal lenses as functors and cofunctors</a>, <i> Bryce Clarke </i>
-                    </li>
-                </ul>
-
-              <hr></hr>
-              <center> <p> Outcomes Following the Research Week </p> </center>
-                <ul>
-                    <li><a href = "https://arxiv.org/abs/2105.05422"> Limits and colimits in a category of lenses</a>, <i>  Emma Chollet, Bryce Clarke, Michael Johnson, Maurine Songa, Vincent Wang, and Gioele Zardini</i> </li>
-                </ul>
+            
             </div>
         </div>
-        <div class= "col-xl-6 ">
+        <div class= "col-xl-6">
             <div class = "past-proj">
                 <center>
-                    <h5>Diagrammatic and algebraic approaches to distances between persistence modules </h5>
-                    <p> Mentor: <i>Nina Otter </i></p>
-                </center>
-                <p>
-                    <p>
-                        Techniques and ideas from topology are being applied to the study of data with increasing frequency and success. One of the most well-known methods of this type is persistent homology, in which one associates a multiparameter family of spaces to a data set and studies how the holes evolve across the parameter space. The resulting algebraic object is called a persistence module. For one-parameter families of spaces, isomorphism classes of persistence modules can be completely classified by discrete invariants, while in the multiparameter case the situation is more delicate.
-                    </p>
-
-                    <p>
-                        Distances between persistence modules are crucial both from a theoretical point of view — for instance, to study the stability of invariants associated to persistence modules —, as well as for applications. The standard distances used for one-parameter persistence modules are L^p distances called Wasserstein distances. For p = ∞ this distance is also called bottleneck distance, and it has arguably been the most used and studied distance for persistence modules. While the original definition is combinatorial, it has equivalent categorical and algebraic formulations called interleaving distance.
-                    </p>
-
-                    <p>
-                        In this project we will study different ways to give diagrammatic and algebraic formulations of Wasserstein distances for multiparameter persistence modules. Our motivation will be to investigate the stability of the invariants for multiparameter persistence modules.
-                    </p>
+                    <h5>  A practical type theory for symmetric monoidal categories</h5>
+                    <p><i>Mentors:</i> Michael Shulman
+                    <br> <i>TA: </i> Paige North
+                    <br> <i>Students: </i>Nuiok Dicaire, Zeinab Galal, Paul Lessard, Sam Speight
                 </p>
-
-                <hr> </hr>
-                <center> <p> Participants and Blog Posts </p> </center>
-
-                <i>Feiyang Lin and John Nolan </i>
+                </center>
+                <hr></hr>
+                <p>
+                    Type theories are formal systems allowing us to reason about categorical structures by “treating their objects as if they were sets” in a formal sense.  While type theories for cartesian categorical structures are better-known, there are also “linear” type theories for non-cartesian structures. In this project we aim to construct a convenient type theory for reasoning about symmetric monoidal bicategories, which can be used to model many different kinds of open and interconnected systems.  We will build on recent results establishing a similar type theory for symmetric monoidal categories as well as coherence theorems for symmetric monoidal bicategories.
+                </p>
+                <p> Readings</p>
                 <ul>
-                    <li>
-                        Associated reading: <a href="https://arxiv.org/abs/1809.09654">An algebraic Wasserstein distance for generalized persistence modules </a>, <i>Peter Bubenik, Jonathan Scott, and Donald Stanley </i>
+                    <li> 
+                        <a href="https://arxiv.org/abs/1911.00818">A practical type theory for symmetric monoidal categories</a>, <i>Michael Shulman </i>
+                    </li>
+                    <li> 
+                        <a href="https://arxiv.org/abs/1112.1000"> The Classification of Two-Dimensional Extended Topological Field Theories</a>, <i> Christopher J. Schommer-Pries </i>
                     </li>
                 </ul>
-                <i>Max Diefenbach and Anastasios Stefanou </i>
-                <ul>
-                    <li>
-                        Associated reading: <a href="https://arxiv.org/abs/1708.07390">Stratifying multiparameter persistent homology </a>, <i>Heather A. Harrington, Nina Otter, Hal Schenck, and Ulrike Tillmann </i>
-                    </li>
-                </ul>
+            
             </div>
         </div>
     </div>
@@ -158,65 +132,63 @@
         <div class= "col-xl-6 ">
             <div class = "past-proj">
                 <center>
-                    <h5> Dialectica categories of Petri nets </h5>
-                    <p> Mentor: <i>Valeria de Paiva</i></p>
-                </center>
-                <p>
-Dialectica categories (also called dialectica spaces) were introduced in the doctoral work of de Paiva​, where they were used to model Gödel’s dialectica interpretation, as well as to provide categorical models of Girard’s linear logic. Since then several applications of dialectica categories, have been described. We want to have some more of them.
-
-This project is about categories of Petri nets. Petri nets are an extremely popular model of concurrency, both in theory and in practice. They have several descriptions and variations in the literature. One of the interesting problems with Petri nets was to give a compositional theory of them. Brown and Gurr used dialectica categories to model a restricted class of Petri nets. They were joined by de Paiva in a subsequent paper​, which generalized the previous work to nets of multiplicity greater than one. Their nets have morphisms corresponding to simulations, which we believe are more flexible than the ones usually considered.
+                    <h5> Categories of maintainable relations </h5>
+                    <p><i>Mentor:</i>  Michael Johnson
+                    <br> <i>TA: </i> Bryce Clark
+                    <br> <i>Students: </i>Emma Chollet, Maurine Songa,  Vincent Wang,  Gioele Zardini
                 </p>
-
-                <hr> </hr>
-                <center> <p> Participants and Blog Posts </p> </center>
-
-                <i>Elena Di Lavore and Xiaoyan Li </i>
-                <ul>
-                    <li> <b> Blog post: </b> <a href = "https://golem.ph.utexas.edu/category/2020/07/linear_logic_flavoured_composi.html"> Linear Logic Flavoured Composition of Petri Nets</a></li>
-                    <li> Associated reading:  <a href="https://ieeexplore.ieee.org/abstract/document/113747"> A categorical linear framework for Petri nets </a>, <i>  C. Brown and  D. Gurr  </i> </li>
-                </ul>
-
-                <i>Wilmer Leal and Eigil Rischel </i>
-                <ul>
-                    <li>
-                        Associated reading: <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-225.pdf"> Categorical multirelations,linear logic and petri nets</a>, <i>Valeria de Paiva </i>
-                    </li>
-                </ul>
-
+                </center>
                 <hr></hr>
-              <center> <p> Outcomes Following the Research Week </p> </center>
+                <p>
+                    Relations have many important applications, and correspondingly the category theoretic study of relations is well-developed. Typically, relations from X to Y are defined as subobjects of the product of X and Y, and if X and Y are objects in a regular category C then we can construct a bicategory rel(C) whose morphisms are relations in C.  Conversely bicategories that arise as such a rel(C) were studied in a recent ACT School which examined the seminal paper “Cartesian Bicategories I” by Carboni and Walters.
+                </p>
+            
+                <p>
+                    In this project we study (bi)categories of maintainable relations between categories.  In this situation, the X and Y of the last paragraph, will be categories, and C will be Cat, the category of (small) categories. Cat is not a regular category, so we need to take an alternative approach to relations that uses equivalence classes of spans in C.  Maintainable relations, which are instances of bidirectional transformations (cf lenses), are relations R between categories X and Y with extra structure so that if objects x of X and y of Y are R-related by a specific witness r, and if f: x –> x’ is an arrow of X, then the extra structure gives (functorially) an arrow g: y –> y’ such that x’ and y’ are again R-related, and by a specific witness r’ (cf symmetric delta lenses).  Commonly in applications the relation R is called a “consistency relation” and the extra structure is called “consistency restoration” (or in lens terms, change propagation).
+                </p>
+            
+                <p>
+                    This is a rich area with many interesting interactions involving bicategories of spans, lenses (both symmetric and asymmetric), fibrations and generalisations of fibred category theory, as well as direct (and motivating) applications in database design and system interoperation and even machine learning.  It is a mix of interesting theoretical questions and concrete applications.  We will attack open questions involving exactness properties of categories of maintainable relations, we will seek to understand the interactions with classical work such as that of Carboni and Walters, and we will develop concrete examples of system interactions that are modelled by maintainable relations.
+                </p>
+                <p> Readings</p>
                 <ul>
-                    <li> <a href = "https://arxiv.org/abs/2105.12801"> Dialectica Petri nets</a>, <i>Elena Di Lavore, Wilmer Leal, Valeria de Paiva </i> </li>
+                    <li> <a href="https://www.mta.ca/~rrosebru/articles/BX16Proc.pdf">Unifying Set-Based, Delta-Based and Edit-Based Lenses </a>, <i> Michael Johnson and Robert Rosebrugh </i></li>
+                    <li> <a href="https://arxiv.org/abs/2009.06835"> Internal lenses as functors and cofunctors</a>, <i> Bryce Clarke </i> </li>
                 </ul>
-
+            
             </div>
         </div>
-        <div class= "col-xl-6">
+        <div class= "col-xl-6 ">
             <div class = "past-proj">
                 <center>
-                    <h5> A practical type theory for symmetric monoidal categories</h5>
-                    <p> Mentor: <i> Michael Shulman </i></p>
-                </center>
-                <p>
-                    Type theories are formal systems allowing us to reason about categorical structures by “treating their objects as if they were sets” in a formal sense.  While type theories for cartesian categorical structures are better-known, there are also “linear” type theories for non-cartesian structures. In this project we aim to construct a convenient type theory for reasoning about symmetric monoidal bicategories, which can be used to model many different kinds of open and interconnected systems.  We will build on recent results establishing a similar type theory for symmetric monoidal categories as well as coherence theorems for symmetric monoidal bicategories.
+                    <h5> Diagrammatic and algebraic approaches to distances between persistence modules</h5>
+                    <p><i>Mentor:</i> Nina Otter
+                    <br> <i>TAs: </i> Barbara Giunti  and Lukas Waas
+                    <br> <i>Students: </i>Max Diefenbach, Feiyang Lin,  John Nolan,  Anastasios Stefanou
                 </p>
-
-                <hr> </hr>
-                <center> <p> Participants and Blog Posts </p> </center>
-
-                <i>Nuiok Dicaire and Paul Lessard </i>
+                </center>
+                <hr></hr>
+                <p>
+                    Techniques and ideas from topology are being applied to the study of data with increasing frequency and success. One of the most well-known methods of this type is persistent homology, in which one associates a multiparameter family of spaces to a data set and studies how the holes evolve across the parameter space. The resulting algebraic object is called a persistence module. For one-parameter families of spaces, isomorphism classes of persistence modules can be completely classified by discrete invariants, while in the multiparameter case the situation is more delicate.
+                </p>
+            
+                <p>
+                    Distances between persistence modules are crucial both from a theoretical point of view — for instance, to study the stability of invariants associated to persistence modules —, as well as for applications. The standard distances used for one-parameter persistence modules are L^p distances called Wasserstein distances. For p = ∞ this distance is also called bottleneck distance, and it has arguably been the most used and studied distance for persistence modules. While the original definition is combinatorial, it has equivalent categorical and algebraic formulations called interleaving distance.
+                </p>
+            
+                <p>
+                    In this project we will study different ways to give diagrammatic and algebraic formulations of Wasserstein distances for multiparameter persistence modules. Our motivation will be to investigate the stability of the invariants for multiparameter persistence modules.
+                </p>
+                <p> Readings</p>
                 <ul>
-                    <li>
-                        Associated reading: <a href="https://arxiv.org/abs/1911.00818">A practical type theory for symmetric monoidal categories </a>, <i>Michael Shulman </i>
+                    <li> 
+                        <a href="https://arxiv.org/abs/1809.09654">An algebraic Wasserstein distance for generalized persistence modules</a>, <i>Peter Bubenik, Jonathan Scott, and Donald Stanley </i>
+                    </li>
+                    <li> 
+                        <a href="https://arxiv.org/abs/1708.07390">Stratifying multiparameter persistent homology</a>, <i>Heather A. Harrington, Nina Otter, Hal Schenck, and Ulrike Tillmann </i>
                     </li>
                 </ul>
-                <i>Zeinab Galal and Sam Speight </i>
-                <ul>
-                    <li>
-                        Associated reading: <a href="https://arxiv.org/abs/1112.1000"> The Classification of Two-Dimensional Extended Topological Field Theories</a>, <i> Christopher J. Schommer-Pries </i>
-                    </li>
-                </ul>
-
+            
             </div>
         </div>
     </div>
