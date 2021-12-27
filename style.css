@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&family=Source+Serif+4&display=swap');
 body {
     padding-top: 5rem;
-    font-family: Avenir Next;
+    font-family: "Source Sans 3";
     margin: 0;
   }
 
@@ -11,7 +12,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Garamond;
+    font-family: "Source Serif 4";
     font-weight: 900;
 }
 
