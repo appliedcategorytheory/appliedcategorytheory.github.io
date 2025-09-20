@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>The Adjoint School</title>
+
+    <link rel="icon" href="images/leftright.png">
+
+</head>
+<body>
+
+		<div id="navbar"></div>
+		<script>
+			fetch("./navbar.html")
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById("navbar").innerHTML = data;
+				});
+		</script>
+
+<main role="main" class="container">
+
+	<h1 style="text-align: center">The Adjoint School 2026</h1>
+
+
+    <p style="text-align: center"> The 2026 Adjoint School is organized by Innocent Obi, Drew McNeely, Diana Kessler, and Aven Dauz. 
+      The research week will be held at Tallinn University in Estonia.
+		</p>
+
+    <div class="row">
+      <div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="image-container">
+					<img src="images/tallinn.jpg" alt="Old Town of Tallinn, Estonia" class="rounded img-fluid group">
+					<div class="credit">Photo by Ben Bender, CC BY-SA 3.0</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+
+<h2 class="important-dates-title" style="margin-top: 2rem">Info on projects coming soon!</h2>
+<hr></hr>
+<h2 class="important-dates-title">Important Dates</h2>
+
+<div class="important-dates">
+  <div class="date-event">
+    <span>Applications Open</span>
+    <strong>November 1</strong>
+  </div>
+  <div class="date-event">
+    <span>Applications Close</span>
+    <strong>December 14</strong>
+  </div>
+  <div class="date-event">
+    <span>Online School Starts</span>
+    <strong>February 23</strong>
+  </div>
+  <div class="date-event">
+    <span>In-Person Research Week, Tallinn</span>
+    <strong>June 29 - July 3</strong>
+  </div>
+  <div class="date-event">
+    <span>ACT Conference, Tallinn</span>
+    <strong>July 6 - 10</strong>
+  </div>
+</div>
+
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+  </html>

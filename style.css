@@ -78,3 +78,54 @@ td {
 img{
     margin: 5px;
 }
+
+
+.important-dates-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+.important-dates {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.date-event {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.date-event span {
+  flex: 1;      /* event text grows */
+  text-align: left;
+}
+
+.date-event strong {
+  flex: 0 0 40%; /* date takes up about 40% */
+  text-align: right;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container .credit {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 0.7em;
+  padding: 2px 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .credit {
+  opacity: 1;
+}
