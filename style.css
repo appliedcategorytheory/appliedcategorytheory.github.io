@@ -129,3 +129,14 @@ img{
 .image-container:hover .credit {
   opacity: 1;
 }
+
+.btn-primary {
+	background-color: #542d80;
+	border-color: #542d80;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #3e2160;
+	border-color: #3e2160;
+}
