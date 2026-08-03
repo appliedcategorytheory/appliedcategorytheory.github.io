@@ -1,152 +1,202 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
 
     <title>The Adjoint School</title>
     <link rel="icon" href="images/leftright.png">
 
-  </head>
-  <body>
+</head>
 
-		<div id="navbar"></div>
-		<script>
-			fetch("./navbar.html")
-				.then(response => response.text())
-				.then(data => {
-					document.getElementById("navbar").innerHTML = data;
-				});
-		</script>
+<body>
 
-
-      <main role="main" class="container">
-
-          <h1> About the Adjoint School </h1>
-
-              <hr></hr>
-
-              <div class="row">
+    <div id="navbar"></div>
+    <script>
+        fetch("./navbar.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            });
+    </script>
 
 
-                  <div class="col-lg-8">
-                      <h3> School Overview </h3>
-                      <p>
-                          Participants are divided into four-person project teams. Each project is guided by a mentor and a TA. The Adjoint School has two main components: an online learning seminar that meets regularly between February and June, and an in-person research week held in the summer adjacent to the Applied Category Theory Conference.
-                      </p>
-                      <p>
-                          During the learning seminar, we will read, discuss, and respond to papers chosen by the project mentors. Every other week, a pair of participants will present a paper which will be followed by a group discussion. Leading up to this presentation,  each student will write a reading responses.  After the learning seminar and before the in-person research week, each pair of participants will write a blog post for <a href="https://golem.ph.utexas.edu/category/">The n-Category Cafe</a> based on the paper that they presented on.
-                      </p>
-                      <p>
-                          The in-person research week will be held the week prior to the International Conference on Applied Category Theory and in the same location. During the week, participants work intensively with their research group under the guidance of their mentor. Projects from the Adjoint School will be presented during this conference. Both components of the school aim to develop a sense of belonging and camaraderie in students so that they can fully participate in the conference, for example by attending talks and chatting with other conference goers.
-                      </p>
+    <main role="main" class="container">
 
-                      <p> This <a href = "assets/Example Adjoint School Syllabus.pdf">example Adjoint School syllabus</a> may help you understand the structure of the school.</p>
+        <h1> About the Adjoint School </h1>
 
-                  </div>
-                  <div class="col-lg-4 v-align">
-                      <div class="row">
-                          <div class="col-lg-12 col-sm-6">
-                                <img src="images/2019-actionshot.jpg" class="rounded img-fluid"></img>
-                            </div>
-                            <div class="col-lg-12 col-sm-6">
-                                <img src="images/2018-actionshot2.jpg" class="rounded img-fluid"></img>
-                            </div>
-                        </div>
-                  </div>
+        <hr>
+        </hr>
 
-              </div>
-              <hr> </hr>
-              <section id = #roles>
-              <h3> Role Descriptions </h3>
+        <div class="row">
 
-              <div class="row">
-                    <div class="col-lg-12 past-proj">
-                      <h5> For Mentors </h5>
-                      <p> The mentor leads a group of four students to study and research an open problem in applied category theory.</p>
-                      <p> <i>Expectations for Mentors:</i> </p>
-                      <ul>
-                          <li> Choose a research project topic </li>
-                          <li> Select 2 relevant readings with consideration for the academic diversity of the students</li>
-                          <li> Attend the research week in-person (COVID dependent)</li>
-                          <li> Be fully present and active during the research week</li>
-                      </ul>
 
-                        <p>Mentors may optionally:</p>
-                        <ul>
-                            <li> Select a TA</li>
-                            <li> Meet with their group’s students during the learning seminar</li>
-                            <li> Attend student presentations during the learning seminar</li>
-                            <li> Lead the group to continue research or publish a paper following the research week</li>
-                        </ul>
+            <div class="col-lg-8">
+                <h3> School Overview </h3>
+                <p>
+                    Participants are divided into four-person project teams. Each project is guided by a mentor and a
+                    TA. The Adjoint School has two main components: an online learning seminar that meets regularly
+                    between February and June, and an in-person research week held aroud June/July before the <a
+                        href="https://www.appliedcategorytheory.org/">Applied Category Theory</a> conference.
+                </p>
+                <p>
+                    During the learning seminar, we will read, discuss, and respond to papers chosen by the project
+                    mentors. Every other week, a pair of participants will present a paper which will be followed by a
+                    group discussion. Leading up to this presentation, each student will write a reading responses.
+                    After the learning seminar and before the in-person research week, each pair of participants will
+                    write a blog post for <a href="https://golem.ph.utexas.edu/category/">The n-Category Cafe</a> based
+                    on the paper that they presented on.
+                </p>
+                <p>
+                    The in-person research week will be held the week prior to the International Conference on Applied
+                    Category Theory and in the same location. During the week, participants work intensively with their
+                    research group under the guidance of their mentor. Projects from the Adjoint School will be
+                    presented during this conference. Both components of the school aim to develop a sense of belonging
+                    and camaraderie in students so that they can fully participate in the conference, for example by
+                    attending talks and chatting with other conference goers.
+                </p>
+
+                <p> This <a href="assets/Example Adjoint School Syllabus.pdf">example Adjoint School syllabus</a> may
+                    help you understand the structure of the school.</p>
+
+            </div>
+            <div class="col-lg-4 v-align">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-6">
+                        <img src="images/2019-actionshot.jpg" class="rounded img-fluid"></img>
+                    </div>
+                    <div class="col-lg-12 col-sm-6">
+                        <img src="images/2018-actionshot2.jpg" class="rounded img-fluid"></img>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        </hr>
+        <section id=#roles>
+            <h3> Role Descriptions </h3>
+
+            <div class="row">
+                <div class="col-lg-12 past-proj">
+                    <h5> For Mentors </h5>
+                    <p> The mentor leads a group of four students to study and research an open problem in applied
+                        category theory.</p>
+                    <p> <i>Expectations for Mentors:</i> </p>
+                    <ul>
+                        <li> Choose a research project topic </li>
+                        <li> Select 2 relevant readings with consideration for the academic diversity of the students
+                        </li>
+                        <li> Attend the research week in-person (COVID dependent)</li>
+                        <li> Be fully present and active during the research week</li>
+                    </ul>
+
+                    <p>Mentors may optionally:</p>
+                    <ul>
+                        <li> Select a TA</li>
+                        <li> Meet with their group’s students during the learning seminar</li>
+                        <li> Attend student presentations during the learning seminar</li>
+                        <li> Lead the group to continue research or publish a paper following the research week</li>
+                    </ul>
                     </li>
-                      </ul>
-                  </div>
-                    <div class="col-lg-12 past-proj">
-                      <h5> For TAs </h5>
-                      <p> The TA for each group guides the groups' students during the learning seminar and assists the mentor during the research week.</p>
-                      <p> <i>Expectations for TAs:</i></p>
-                      <ul>
-                          <li> During the learning seminar:
-                              <ul>
-                                  <li> Support the two pairs of students in developing their presentation and blog post by checking-in frequently, answering technical questions, and providing feedback </li>
-                                  <li> Attend the presentations given by your students</li>
-                              </ul>
-                          </li>
-                          <li> During the research week:
-                              <ul>
-                                  <li>Support the group during the working sessions, under the guidance of the mentor</li>
-                              </ul>
-                          </li>
-                      </ul>
-                  </div>
-                    <div class="col-lg-12 past-proj">
-                      <h5> For Participants </h5>
-                      <p> The participants develop the skills of research during the learning seminar by reading, presenting, and writing supported by frequent discussions and reflections. During the research week they work intensively on a research project under the guidance of their project’s mentor.</p>
-                      <p> <i>Expectations for Participants:</i></p>
-                      <ul>
-                          <li> During the learning seminar (~16 weeks):
-                              <ul>
+                    </ul>
+                </div>
+                <div class="col-lg-12 past-proj">
+                    <h5> For TAs </h5>
+                    <p> The TA for each group guides the groups' students during the learning seminar and assists the
+                        mentor during the research week.</p>
+                    <p> <i>Expectations for TAs:</i></p>
+                    <ul>
+                        <li> During the learning seminar:
+                            <ul>
+                                <li> Support the two pairs of students in developing their presentation and blog post by
+                                    checking-in frequently, answering technical questions, and providing feedback </li>
+                                <li> Attend the presentations given by your students</li>
+                            </ul>
+                        </li>
+                        <li> During the research week:
+                            <ul>
+                                <li>Support the group during the working sessions, under the guidance of the mentor</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 past-proj">
+                    <h5> For Participants </h5>
+                    <p> The participants develop the skills of research during the learning seminar by reading,
+                        presenting, and writing supported by frequent discussions and reflections. During the research
+                        week they work intensively on a research project under the guidance of their project’s mentor.
+                    </p>
+                    <p> <i>Expectations for Participants:</i></p>
+                    <ul>
+                        <li> During the learning seminar (~16 weeks):
+                            <ul>
                                 <li> Read 1 assigned paper every two weeks </li>
                                 <li> Write a short reading response to each paper prior to its presentation</li>
-                                <li> Meet with the whole school bi-weekly to attend student presentations and discuss the assigned paper </li>
-                                <li> For the paper you are responsible for presenting (1 time during the learning seminar), collaborate with your subgroup to
+                                <li> Meet with the whole school bi-weekly to attend student presentations and discuss
+                                    the assigned paper </li>
+                                <li> For the paper you are responsible for presenting (1 time during the learning
+                                    seminar), collaborate with your subgroup to
                                     <ul>
                                         <li> Give a presentation on the assigned reading</li>
-                                        <li> Write a blog post to be posted on the <a href="https://golem.ph.utexas.edu/category/">The n-Category Cafe</a> </li>
+                                        <li> Write a blog post to be posted on the <a
+                                                href="https://golem.ph.utexas.edu/category/">The n-Category Cafe</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li> (optionally) Participate in group meetings throughout the learning seminar.</li>
-                                </ul>
-                            </li>
-                          <li> During the research week:
-                              <ul>
-                                  <li>Be present and engaged in research with your group whether hybrid or in-person</li>
-                              </ul>
-                          </li>
-                      </ul>
+                            </ul>
+                        </li>
+                        <li> During the research week:
+                            <ul>
+                                <li>Be present and engaged in research with your group whether hybrid or in-person</li>
+                            </ul>
+                        </li>
+                    </ul>
 
-                  </div>
+                </div>
 
-              </div>
-             </section>
+            </div>
+        </section>
 
-              <hr> </hr>
-              <h3> Contact Us </h3>
-              <p> Contact the organizers of the Adjoint School by emailing <a href="mailto:actadjointschool@gmail.com">actadjointschool@gmail.com</a>.</p>
+        <hr>
+        </hr>
+        <h3> People </h3>
+        <p> The organizers of the Adjoint School are previous participants who volunteer for two editions, with two new organizers
+            joining two experienced ones every year. You can contact them directly by emailing <a
+                href="mailto:actadjointschool@gmail.com">actadjointschool@gmail.com</a>. The organizers are selected by
+            the steering committee who work for the continued existence of the school and
+            support the organizers. The committee's members are:</p>
+        <ul>
+            <li><a href="https://danielmichaelcicala.github.io/">Daniel Cicala</a> @ Southern Connecticut State
+                University</li>
+            <li><a href="http://www.brendanfong.com/">Brendan Fong</a> @ Topos Institute</li>
+            <li><a href="https://elenadilavore.github.io/">Elena Di Lavore</a> @ Tallinn University of Technology</li>
+            <li><a href="https://www.davidjaz.com/">David Jaz Myers</a> @ Topos Institute</li>
+            <li><a href="https://ralphs16.github.io/">Ralph Sarkis</a> @ Université de Lille</li>
+        </ul>
 
 
-</main>
+    </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
