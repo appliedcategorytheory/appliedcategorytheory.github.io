@@ -1,2 +1,2 @@
 # appliedcategorytheory.github.io
-ACT Adjoint School Website
+Adjoint School Website
