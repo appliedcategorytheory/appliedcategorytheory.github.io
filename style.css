@@ -140,3 +140,21 @@ img{
 	background-color: #3e2160;
 	border-color: #3e2160;
 }
+
+.paper-entry {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+
+.paper-title {
+    font-weight: bold;
+}
+
+.paper-authors {
+    font-style: italic;
+}
+
+.paper-links {
+    font-family: monospace;
+    font-size: 0.8em;
+}
